@@ -1,0 +1,21 @@
+.gallery {
+  max-width: 1240px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+.gallery-image:hover {
+  transform: scale(1.03);
+}
+.gallery-link:hover {
+  cursor: zoom-in;
+}
